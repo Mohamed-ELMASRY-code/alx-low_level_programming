@@ -5,7 +5,7 @@
  *
  * followed by a new line. You can only use _putchar twice in your code.
  */
-void print_alphabet(void)
+void print_alphabet(void);
 {
 	char lowercase_alpha = 'a';
 
