@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ * print_alphabet - The entry point of the function
  * @void: The function takes no parameters
  */
 void print_alphabet(void)
