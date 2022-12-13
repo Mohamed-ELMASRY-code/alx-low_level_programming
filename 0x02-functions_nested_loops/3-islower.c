@@ -1,4 +1,7 @@
 #include "main.h"
+/**
+ * Return: islower_bool value
+ */
 int _islower(int c)
 {
 	char lowercase_alpha = 'a';
