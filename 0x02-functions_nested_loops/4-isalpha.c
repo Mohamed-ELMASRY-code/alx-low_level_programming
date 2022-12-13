@@ -1,5 +1,8 @@
 #include "main.h"
 /**
+ * _isalpha - The entry point of the function
+ * @c: The argument to be checked
+ *
  * Return: isletter_bool value
  */
 int _isalpha(int c)
