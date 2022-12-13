@@ -1,5 +1,8 @@
 #include "main.h"
 /**
+ * _islower - The entry point of the function
+ * @c: The character to be checked
+ *
  * Return: islower_bool value
  */
 int _islower(int c)
