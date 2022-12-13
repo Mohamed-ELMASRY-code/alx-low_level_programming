@@ -1,7 +1,9 @@
 #include "main.h"
 /**
  * print_alphabet - The entry point of the function
- * @void: The function takes no parameters
+ * @void: The function takes no parameter
+ *
+ * followed by a new line. You can only use _putchar twice in your code.
  */
 void print_alphabet(void)
 {
