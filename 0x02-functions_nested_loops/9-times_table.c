@@ -7,44 +7,32 @@
  */
 void times_table(void)
 {
-	int firstnum, secondnum, multiplication_result;
+	int rone, cone, d;
 
-	firstnum = 0;
-	while (firstnum < 10)
+	for (rone = 0; rone <= 9; rone++)
 	{
-		secondnum = 0;
-		while (secondnum < 10)
+		_putchar('0');
+		_putchar(',');
+		_putchar(' ');
+		for (cone = 1; cone <= 9; cone++)
 		{
-			multiplication_result = firstnum * secondnum;
-			if (secondnum != 9)
+			d = (rone * cone);
+			if ((d / 10) > 0)
 			{
-				if ((multiplication_result / 10) == 0)
-				{
-					_putchar(multiplication_result + '0');
-					_putchar(',');
-					_putchar(' ');
-				}
-				else
-				{
-					_putchar((multiplication_result / 10) + '0');
-					_putchar((multiplication_result % 10) + '0');
-					_putchar(',');
-					_putchar(' ');
-				}
+				_putchar((d / 10) + '0');
 			}
 			else
 			{
-				if ((multiplication_result / 10) == 0)
-					_putchar(multiplication_result + '0');
-				else
-				{
-					_putchar((multiplication_result / 10) + '0');
-					_putchar((multiplication_result % 10) + '0');
-				}
+				_putchar(' ');
 			}
-			secondnum++;
+			_putchar((d % 10) + '0');
+
+			if (cone < 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
-		firstnum++;
 		_putchar('\n');
 	}
 }
