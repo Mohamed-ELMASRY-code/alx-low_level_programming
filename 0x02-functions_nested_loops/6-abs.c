@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _abs - The entry point of the function
- * @x: The argument to be evaluated
+ * @n: The argument to be evaluated
  *
  * Return: abs_val
  */
